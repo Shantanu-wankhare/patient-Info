@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+         <h1 style="margin-left:200px"> Patient Information </h1> 
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        .container
+        {
+        align-content:scenter;
+        }
+        .body
+        {
+            margin-left:600px;
+            margin-top:150px;
+            line-height: 50px;
+            
+        }
+       .input
+       {
+         height:25px;
+         width:500px;
+         border-radius: 10px;
+         background-color: antiquewhite;
+       }
+       .font
+       {
+           font-weight: bold;
+           font-size: 25px;;
+       }
+       .btn
+       {
+          margin-left:240px;
+          width:110px;
+          background-color: red;
+          border-radius: 10px;
+          height:30px;
+          column-gap:50px ;
+       }
+       .btn1
+       {
+        margin-left:140px;
+          width:110px;
+          background-color:rgb(28, 110, 145);
+          border-radius: 10px;
+          height:30px;
+          column-gap:50px 
+       }
+    </style>
+</head> 
+<body class="body" > 
+<div class="container"  ></div>
+<form   action="index.html" method="post"> 
+    
+<table> <tr> <td> <font style="margin-left:50px "class="font">   Patient Id:- </font></td> <td> <input type="text" class="input" size="50px" name="patientid" placeholder="enter patient id" required="required"> 
+</td>
+ </tr> 
+ <tr style="text-align:center"> 
+     <td > <Patient class="font">  Patient Name:-</font> </td>
+     <td> <input type="text" class="input" size="50px" name="username"  placeholder="enter patient name"required="required"> </td>
+     </tr> 
+     <tr style="text-align:center"> 
+        <td ><font class="font">Date of Birth:-</font> </td>
+        <td> <input type="text" class="input" size="50px"  name="dob" placeholder="enter date of first"required="required" > </td>
+        </tr>
+        <tr style="text-align:center"> 
+            <td ><font class="font"> Gender:- </font></td>
+            <td> <input type="text" class="input"  size="50px" name="gender" placeholder="enter gender" required="required"> </td>
+            </tr>
+            <tr style="text-align:center"> 
+                <td > <font class="font">Adress:- </font></td>
+                <td> <input type="text" class="input" size="50px"  name="address" placeholder="enter the adress" required="required"> </td>
+                </tr>
+                <tr style="text-align:center"> 
+                    <td ><font class="font"> Contact Number:-</font> </td>
+                    <td> <input type="text" class="input"  size="50px" name="contactnumber" placeholder="enter contact number"required="required"> </td>
+                    </tr>
+                    <tr style="text-align:center"> 
+                        <td ><font class="font"> email Id:-</font> </td>
+                        <td> <input type="email" class="input" size="50px" name="email"  placeholder="email" required="required"> </td>
+                        </tr>
+                        <tr style="text-align:center"> 
+                            <td ><font class="font">Password:-</font> </td>
+                            <td> <input type="text" class="input" size="50px" name="password" placeholder="password" required="required">  </td>
+                            </tr>
+                            <tr style="text-align:center"> 
+                                <td > <font class="font">Blood Group:-</font> </td>
+                                <td> <input type="text" class="input" size="50px"  name="bloodgroup" placeholder="bloodgroup" required="required"> </td>
+                                </tr>
+                                <tr style="text-align:center"> 
+                                    <td ><font class="font"> Details:-</font> </td>
+                                    <td> <input type="text" class="input" size="50px" name=""  placeholder="enter details" required="required"> </td>
+                                    </tr>
+                                    
+
+    
+    </table> 
+    <table>
+        <tr>
+            <td>
+         <button class="btn">SUBMIT</button>
+            </td>
+            <td>   <button type="reset" class="btn1">RESET</button></td>
+        </tr>
+    </table>
+ 
+
+</form> 
+</div>
+</body> 
+</html>
